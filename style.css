@@ -1,0 +1,72 @@
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+display: grid;
+    gap: 280px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 10px 20px 1px;
+    margin: 0px 0px 0px 60px;
+}
+.imiges{
+    width: 200px;
+    height: 200px;
+}
+h3{
+    font-size: 30px;
+}
+button{
+    width: 800px;
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: blueviolet;
+    color: white;
+    margin-bottom:50px;
+    margin: auto;
+    width: 50%;
+}
+.mobiles-continer{
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-left: 180px;
+    
+}
+.mobiles-continer p{
+    background: linear-gradient(blue, blueviolet, red);
+    color: white;
+    padding: 70px;
+}
+.mobiles-continer img{
+    width: 240px;
+    height: 240px;
+    margin: auto;
+    padding-bottom: 20px;
+    animation: rotat 3s ease infinite alternate;   
+}
+@keyframes rotat{
+    form{
+transform: translate(1px);
+    }
+    to{
+transform: translate(200px);
+    }
+}
+@media(max-width:786px){
+    .mobiles-continer{
+        display: flex;
+    }
+}
